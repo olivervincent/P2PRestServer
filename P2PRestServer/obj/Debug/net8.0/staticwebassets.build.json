@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mjUk1Q87FZjN6VjKe4Hd+R/hLXGnoWYzHdTsFREJtx4=",
+  "Source": "P2PRestServer",
+  "BasePath": "_content/P2PRestServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

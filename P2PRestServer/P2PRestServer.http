@@ -1,0 +1,6 @@
+@P2PRestServer_HostAddress = http://localhost:5203
+
+GET {{P2PRestServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
