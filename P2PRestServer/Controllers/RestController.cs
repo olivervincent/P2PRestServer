@@ -16,7 +16,7 @@ public class RestController : ControllerBase
     }
 
     [HttpGet("{filename}")]
-    public ActionResult<IEnumerable<FileEndPoint>> GetPeers(string filename)
+    public ActionResult<List<FileEndPoint>> GetPeers(string filename)
     {
         var endpoints = _repository.GetFileEndPoints(filename);
         if (endpoints.Any())
@@ -41,7 +41,7 @@ public class RestController : ControllerBase
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<string>> GetAllFilenames()
+    public ActionResult<List<string>> GetAllFilenames()
     {
         var filenames = _repository.GetAllFilenames();
         return Ok(filenames);
